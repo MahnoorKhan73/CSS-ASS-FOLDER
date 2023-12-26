@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+}
+.pimg1 {
+  background-image: url(./images/Parallax_1.png);
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg2 {
+  background-image: url(./images/Parallax_2.png);
+  height: 500px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg3 {
+  background-image: url(./images/Parallax_3.png);
+  height: 500px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.sectionlight {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.sectionsoft {
+  background-color: #282e34;
+  color: #ddd;
+}
+.sectiondark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  font-size: 30px;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.textbg {
+  background-color: #313534;
+  color: #fff;
+  padding: 20px;
+  border-radius: 50px;
+  transition: 1.5s ease-in;
+}
+.textbg:hover {
+    cursor: pointer;
+    transition: 1.5s ease-out;
+    background-color:#f4f4f4;
+    color: #313534;
+}
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section > h2 {
+  text-transform: uppercase;
+}

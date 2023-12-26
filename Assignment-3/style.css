@@ -1,0 +1,39 @@
+* {
+  padding: 30px;
+  background-color: tomato;
+  opacity: 0.8;
+}
+#top {
+  background-color: burlywood;
+  border: 6px solid crimson;
+  border-radius: 50px;
+  font-family: fantasy;
+  color: DarkCyan;
+}
+#top:hover {
+  cursor: pointer;
+  transition: 0.7s;
+  background-color: chocolate;
+  color: black;
+}
+#center {
+  background-color: turquoise;
+  border: 8px solid cornflowerblue;
+  border-radius: 50px;
+  font-family: fantasy;
+  color: brown;
+}
+#center:hover {
+  cursor: pointer;
+  transition: 0.7s;
+  background-color: thistle;
+  color: white;
+}
+
+#last {
+  background-color: wheat;
+  border: 10px solid slategrey;
+  border-radius: 50px;
+  font-family: fantasy;
+  color: seagreen;
+}

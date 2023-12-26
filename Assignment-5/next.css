@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px auto;
+  background-image: url(./Assets/lights.pic);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.attachment {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin: 100px;
+  align-items: center;
+}
+p {
+  color: gainsboro;
+  display: block;
+  padding: 50px;  
+}

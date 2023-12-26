@@ -1,0 +1,39 @@
+*{
+    background-color:burlywood;
+}
+div {
+  height: 60vh;
+  width: 500px;
+  background-color: #bbbbaa;
+}
+p {
+  height: 75%;
+  width: 75%;
+  background-color: #0088dd;
+}
+.top {
+  min-width: 450px;
+  max-width: 650px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  word-spacing: 7px;
+  /* overflow: hidden; */
+}
+.img {
+  width: 300px;
+  height: 200px;
+}
+.rs {
+  min-width: 100px;
+}
+li {
+  display: inline;
+  margin-left: 10px;
+}
+.ser {
+  visibility: hidden;
+}
+.info {
+  display: none;
+}
