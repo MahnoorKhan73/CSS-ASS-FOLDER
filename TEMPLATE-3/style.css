@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans";
+}
+
+hr {
+    color: lightgray;
+}
+
+nav {
+    background-color: #000;
+    color: white;
+}
+
+.left i {
+    padding: 5px;
+}
+
+.left i:hover {
+    cursor: pointer;
+    color: lightgray;
+}
+
+.right i:hover {
+    cursor: pointer;
+    color: lightgrey;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.grey {
+    color: grey;
+}
+
+.jane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.jane h1 {
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.jane p {
+    padding-top: 6px;
+}
+
+.jane span {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+.jane_img {
+    height: 100vh;
+    background-image: url(./Assets/jane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 16px;
+    color: white;
+}
+
+.content {
+    margin-top: 260px;
+}
+
+.jane_h {
+    padding-bottom: 15px;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.jane_img button {
+    border: none;
+    padding: 12px;
+    color: black;
+    background-color: lightgrey;
+    font-size: 18px !important;
+}
+
+.jane_img button:hover {
+    cursor: pointer;
+    transition: 1.3s;
+    color: #000;
+    background-color: #fff;
+}
+
+.long {
+    padding: 18px 16px;
+    border: 1px solid lightgray;
+    background-color: lightgray !important;
+}
+
+.title {
+    padding: 10px;
+    background-color: white;
+    margin: 20px;
+}
+
+.align_center {
+    text-align: center;
+    margin: 12px;
+}
+
+.align_center h3 {
+    margin-bottom: 15px;
+
+}
+
+.hats_cont {
+    padding: 15px;
+}
+
+.hats_cont img {
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.hats_cont .hats_one {
+    margin-bottom: 8px;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+
+}
+
+.thumb button {
+    text-align: center;
+    padding: 10px 16px;
+    border: 0.5px solid grey;
+    background-color: white;
+}
+
+.thumb button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.reply {
+    padding: 8px;
+    background: black;
+    color: white;
+}
+
+.reply span {
+    background-color: white;
+    color: black;
+}
+
+.blog {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.blog_img img {
+    width: 80px;
+}
+
+.blog_text p {
+    margin-top: 6px;
+}
+
+.eyes{
+    box-sizing: inherit;
+    background-color: #000;
+    color:white;
+}
+.eyes img {
+    width:100%;
+    filter: grayscale(75%);
+}
+.container{
+    padding: 16px;
+}
+

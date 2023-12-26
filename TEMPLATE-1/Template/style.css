@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  align-items: center;
+}
+.items a {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  transition: 0.4s ease-in;
+}
+.items a:hover {
+  background-color: gray;
+  color: black;
+  transition: 0.4s ease-out;
+}
+.search {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 45px;
+}
+.jumbo {
+  background-image: url(./Images/bg.jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+}
+.band {
+  margin-top: 50px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  box-sizing: inherit;
+}
+.frist_band_Section {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 65%;
+  padding: 10px;
+}
+.change {
+  margin-bottom: 8px;
+}
+.changes{
+  opacity: 0.5;
+  margin-bottom: 8px;
+
+}
+.second_band_section{
+  max-width: 60%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.band_cards p{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.band_cards img{
+  width: 150px;
+  border-radius: 10px;
+}
